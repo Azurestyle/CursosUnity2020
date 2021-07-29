@@ -12,7 +12,6 @@ public class Target : MonoBehaviour
 
     public ParticleSystem explosionParticle;
     private Rigidbody _rigidbody;
-    
     private float minForce = 12,
         maxForce = 16,
         maxTorque = 10,
@@ -63,7 +62,7 @@ public class Target : MonoBehaviour
     private void OnMouseOver()
     {
         if (gameManager.gameState == GameManager.GameState.inGame)
-        {
+        {   
             Destroy(gameObject);
             Instantiate(explosionParticle,transform.position,explosionParticle.transform.rotation);
             gameManager.UpdateScore(pointValue);
