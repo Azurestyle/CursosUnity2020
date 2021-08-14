@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\nacho\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\nacho\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_John Lemon.-535849047.00" t="ExcludeRecursive" />
+    <e p="C:\Users\nacho\Desktop\UnityProjects\CursosUnity2020\John Lemon" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="3DBeginner_Third-PartyNotice.txt" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="GameEnding.cs" t="Include" />
+          <e p="LightFlicker.cs" t="Include" />
+          <e p="PlayerController.cs" t="Include" />
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="PlaneFog.shader" t="Include" />
+          <e p="SpookyStandardShader.shader" t="Include" />
+          <e p="ToonShader.shader" t="Include" />
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="John Lemon.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
