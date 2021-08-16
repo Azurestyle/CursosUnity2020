@@ -14,11 +14,14 @@ public class PlayerController : MonoBehaviour
 
     //Para que no pete le asignamos un quaternion
     private Quaternion rotation = Quaternion.identity;
+
+    private AudioSource _audioSource;
     // Start is called before the first frame update
     void Start()
     {
         _animator = GetComponent<Animator>();
         _rigidbody = GetComponent<Rigidbody>();
+        _audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -37,6 +40,18 @@ public class PlayerController : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticalInput;
         
         _animator.SetBool("IsWalking", isWalking);
+
+        if (isWalking)
+        {
+            if (!_audioSource.isPlaying)
+            {
+                _audioSource.Play();
+            }
+        }
+        else
+        {
+            _audioSource.Stop();
+        }
         
         // Para movimientos smooth (lerp) interpolar entre dos puntos slerp esféricamente, moveTowards, rotateTowards
         // De donde estás mirando a donde quieres mirar
